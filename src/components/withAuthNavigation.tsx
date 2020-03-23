@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -12,11 +12,14 @@ import Container from '@material-ui/core/Container';
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import {withRouter} from 'react-router-dom'
+import {Redirect, withRouter} from 'react-router-dom'
 import DrawerItems from "./DrawerItems";
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import Menu from '@material-ui/core/Menu';
 import {UserContext, UserContextProps} from "../context/userContext";
+import ApolloClient from "apollo-boost";
+import {API_URL} from "../constants";
+import {ApolloProvider} from "@apollo/react-hooks";
 
 
 const drawerWidth = 240;
@@ -100,7 +103,7 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function withNavigation(WrappedComponent:any) {
+export default function withAuthNavigation(WrappedComponent:any) {
 
     return withRouter((props:any) => {
         const classes = useStyles();
@@ -120,12 +123,18 @@ export default function withNavigation(WrappedComponent:any) {
         const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
 
         const handleMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
+            event.preventDefault();
             setAnchorEl(event.currentTarget);
         }
 
         const handleClose = () => {
             setAnchorEl(null);
         }
+
+
+
+
+
 
         return (
             <div className={classes.root}>
@@ -142,7 +151,7 @@ export default function withNavigation(WrappedComponent:any) {
                             <MenuIcon/>
                         </IconButton>
                         <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-                            Dashboard
+                            Arclight Digital Diagnosis Tool
                         </Typography>
                         <IconButton
                             aria-label="Account of current user"
@@ -191,7 +200,7 @@ export default function withNavigation(WrappedComponent:any) {
                 <main className={classes.content}>
                     <div className={classes.appBarSpacer}/>
                     <Container maxWidth="lg" className={classes.container}>
-                        <WrappedComponent {...props} />
+                        <WrappedComponent {...props}/>
                     </Container>
                 </main>
             </div>

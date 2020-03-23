@@ -9,34 +9,34 @@ import {withRouter, RouteChildrenProps} from 'react-router-dom'
 const DrawerItems = (props:RouteChildrenProps) => {
     return (
         <List>
-            <ListItem button onClick={()=>{props.history.push(ROUTES.LANDING)}}>
+            <ListItem button onClick={()=>{props.history.push(ROUTES.NEW_CASES)}}>
                 <ListItemIcon
-                    style={props.location.pathname === ROUTES.LANDING ? {color:'#3f51b5'} : {}}
+                    style={props.location.pathname === ROUTES.NEW_CASES ? {color:'#3f51b5'} : {}}
                 >
                     <CreateNewFolderIcon />
                 </ListItemIcon>
                 <ListItemText primary={'New Cases'}
-                              style={props.location.pathname === ROUTES.LANDING ? {color:'#3f51b5'} : {}}
+                              style={props.location.pathname === ROUTES.NEW_CASES ? {color:'#3f51b5'} : {}}
                 />
             </ListItem>
-            <ListItem button onClick={()=>{props.history.push(ROUTES.ROUTE_1)}}>
+            <ListItem button onClick={()=>{props.history.push(ROUTES.REOPENED_CASES)}}>
                 <ListItemIcon
-                    style={props.location.pathname === ROUTES.ROUTE_1 ? {color:'#3f51b5'} : {}}
+                    style={props.location.pathname === ROUTES.REOPENED_CASES ? {color:'#3f51b5'} : {}}
                 >
                     <ReplayIcon />
                 </ListItemIcon>
                 <ListItemText primary={'Re-opened Cases'}
-                              style={props.location.pathname === ROUTES.ROUTE_1 ? {color:'#3f51b5'} : {}}
+                              style={props.location.pathname === ROUTES.REOPENED_CASES ? {color:'#3f51b5'} : {}}
                 />
             </ListItem>
-            <ListItem button onClick={()=>{props.history.push(ROUTES.ROUTE_2)}}>
+            <ListItem button onClick={()=>{props.history.push(ROUTES.ARCHIVED_CASES)}}>
                 <ListItemIcon
-                    style={props.location.pathname === ROUTES.ROUTE_2 ? {color:'#3f51b5'} : {}}
+                    style={props.location.pathname === ROUTES.ARCHIVED_CASES ? {color:'#3f51b5'} : {}}
                 >
                     <ArchiveIcon />
                 </ListItemIcon>
                 <ListItemText primary={'Archived Cases'}
-                              style={props.location.pathname === ROUTES.ROUTE_2 ? {color:'#3f51b5'} : {}}
+                              style={props.location.pathname === ROUTES.ARCHIVED_CASES ? {color:'#3f51b5'} : {}}
                 />
             </ListItem>
         </List>
