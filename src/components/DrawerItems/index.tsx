@@ -3,7 +3,7 @@ import {List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
 import CreateNewFolderIcon from '@material-ui/icons/CreateNewFolder';
 import ReplayIcon from '@material-ui/icons/Replay';
 import ArchiveIcon from '@material-ui/icons/Archive';
-import {ROUTES} from "../constants";
+import {ROUTES} from "../../constants";
 import {withRouter, RouteChildrenProps} from 'react-router-dom'
 
 const DrawerItems = (props:RouteChildrenProps) => {

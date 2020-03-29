@@ -13,12 +13,12 @@ import MenuItem from "@material-ui/core/MenuItem";
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import {Redirect, withRouter} from 'react-router-dom'
-import DrawerItems from "./DrawerItems";
+import DrawerItems from "../DrawerItems";
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import Menu from '@material-ui/core/Menu';
-import {UserContext, UserContextProps} from "../context/userContext";
+import {UserContext, UserContextProps} from "../../context/userContext";
 import ApolloClient from "apollo-boost";
-import {API_URL} from "../constants";
+import {API_URL} from "../../constants";
 import {ApolloProvider} from "@apollo/react-hooks";
 
 
