@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb1c0dd-5250-4394-8fe9-59bb285d5048" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Alert/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CaseRecordData/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorComment/CommentInputModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorComment/DoctorCommentDisplay.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorComment/DoctorCommentSkeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorComment/ScreenerCommentDisplay.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorComment/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorStatusChip/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoadingDiv/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/alertContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArchivedCasesTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArchivedCasesTable/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DrawerItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerItems/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewCasesTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewCasesTable/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReOpenedCasesTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReOpenedCasesTable/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/withAuthNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/withAuthNavigation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewCase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewCase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +25,6 @@
   <component name="ProjectId" id="1ZOVXcv1JX697J0jHeRk26LlNq7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -58,10 +34,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -101,11 +80,29 @@
       <workItem from="1585320434152" duration="3032000" />
       <workItem from="1585391354659" duration="8700000" />
       <workItem from="1585465133734" duration="1906000" />
+      <workItem from="1585490160946" duration="652000" />
+      <workItem from="1585491546945" duration="12000" />
+      <workItem from="1585493657900" duration="52000" />
+      <workItem from="1585493722289" duration="8000" />
+      <workItem from="1585494423629" duration="188000" />
+      <workItem from="1585494620617" duration="11000" />
+      <workItem from="1585494686802" duration="2746000" />
+      <workItem from="1585556449341" duration="4000" />
+      <workItem from="1585556467479" duration="3585000" />
+      <workItem from="1585573436891" duration="59000" />
+      <workItem from="1585573511003" duration="1775000" />
+      <workItem from="1585644953321" duration="9000" />
+      <workItem from="1585645240826" duration="409000" />
+      <workItem from="1585645658627" duration="6000" />
+      <workItem from="1585646001054" duration="7000" />
+      <workItem from="1585646328594" duration="22000" />
+      <workItem from="1585647195899" duration="11000" />
+      <workItem from="1585647836964" duration="5755000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="136" width="1000" height="839" key="#File_Watchers" timestamp="1585150237027">
@@ -121,6 +118,10 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="684" y="309" width="530" height="723" key="#com.intellij.ide.macro.MacrosDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1585149674126" />
+    <state x="640" y="272" width="630" height="567" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585494607137">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="640" y="272" width="630" height="567" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1585494607137" />
     <state x="526" y="285" width="857" height="772" key="EditFileWatcherDialog" timestamp="1585150233754">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
@@ -130,15 +131,15 @@
     </state>
     <state x="690" y="257" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1585041257395" />
     <state x="690" y="257" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1585150231396" />
-    <state x="325" y="103" key="SettingsEditor" timestamp="1585208673541">
+    <state x="325" y="103" key="SettingsEditor" timestamp="1585573492672">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="325" y="103" key="SettingsEditor/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584886354169" />
-    <state x="325" y="103" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1585208673541" />
-    <state x="1060" y="235" width="1720" height="642" key="find.popup" timestamp="1585313456617">
-      <screen x="0" y="34" width="3840" height="1046" />
+    <state x="325" y="103" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1585573492672" />
+    <state x="530" y="235" width="860" height="642" key="find.popup" timestamp="1585562993859">
+      <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="530" y="235" width="860" height="642" key="find.popup/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584889322748" />
+    <state x="530" y="235" width="860" height="642" key="find.popup/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1585562993859" />
     <state x="1060" y="235" width="1720" height="642" key="find.popup/0.34.3840.1046@0.34.3840.1046" timestamp="1585313456617" />
     <state width="750" height="530" key="javadoc.popup" timestamp="1585308185069">
       <screen x="0" y="34" width="3840" height="1046" />
@@ -167,6 +168,11 @@
           <url>file://$PROJECT_DIR$/src/components/DoctorStatusChip/index.tsx</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/types.tsx</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
