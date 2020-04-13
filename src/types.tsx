@@ -21,6 +21,7 @@ export interface PatientData {
 export interface VideoUploadData {
   id: number;
   signed_url: string;
+  signed_signature_url: string;
   date_recorded: string;
   patient: PatientData;
   comment: string;

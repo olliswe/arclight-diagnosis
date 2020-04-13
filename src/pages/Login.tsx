@@ -56,7 +56,7 @@ const Login: React.FC = () => {
         userContext.dispatch({
           type: "login",
           payload: {
-            user: { email: res.data.email, id: res.data.id },
+            user: { email: res.data.user.email, id: res.data.user.id },
             token: res.data.token,
           },
         });

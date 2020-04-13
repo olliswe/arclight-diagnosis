@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb1c0dd-5250-4394-8fe9-59bb285d5048" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ViewCase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewCase.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +100,12 @@
       <workItem from="1585646001054" duration="7000" />
       <workItem from="1585646328594" duration="22000" />
       <workItem from="1585647195899" duration="11000" />
-      <workItem from="1585647836964" duration="5755000" />
+      <workItem from="1585647836964" duration="7594000" />
+      <workItem from="1585906251466" duration="4491000" />
+      <workItem from="1586074150188" duration="1199000" />
+      <workItem from="1586076189967" duration="1681000" />
+      <workItem from="1586671485601" duration="2000" />
+      <workItem from="1586767234819" duration="1213000" />
     </task>
     <servers />
   </component>

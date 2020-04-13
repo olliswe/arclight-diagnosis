@@ -39,6 +39,7 @@ const QUERY_CASE = gql`
     video_upload(video_upload_id: $id) {
       id
       signed_url
+      signed_signature_url
       date_recorded
       patient {
         id
@@ -158,6 +159,23 @@ const ViewCase: React.FC<Props> = (props) => {
                     <div className={classes.videoContainer}>
                       <Player src={record.signed_url} />
                     </div>
+                  </Grid>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
+              <ExpansionPanel>
+                <ExpansionPanelSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2a-content"
+                  id="panel2a-header"
+                >
+                  <strong>Show Patient Approval Signature</strong>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                  <Grid container justify={"center"}>
+                    <img
+                      src={record.signed_signature_url}
+                      style={{ maxWidth: "100%" }}
+                    />
                   </Grid>
                 </ExpansionPanelDetails>
               </ExpansionPanel>
