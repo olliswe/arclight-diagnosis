@@ -4,7 +4,6 @@
     <list default="true" id="edb1c0dd-5250-4394-8fe9-59bb285d5048" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1586767234819" duration="2810000" />
       <workItem from="1589354653279" duration="660000" />
       <workItem from="1590954315479" duration="443000" />
-      <workItem from="1590994554701" duration="1182000" />
+      <workItem from="1590994554701" duration="2085000" />
     </task>
     <servers />
   </component>
@@ -154,10 +153,11 @@
       <screen x="0" y="34" width="3840" height="1046" />
     </state>
     <state width="750" height="530" key="javadoc.popup/0.34.3840.1046@0.34.3840.1046" timestamp="1585308185069" />
-    <state x="1078" y="45" width="1680" height="1034" key="search.everywhere.popup" timestamp="1585311606924">
-      <screen x="0" y="34" width="3840" height="1046" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1590996221670">
+      <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584887361241" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1590996221670" />
     <state x="1078" y="45" width="1680" height="1034" key="search.everywhere.popup/0.34.3840.1046@0.34.3840.1046" timestamp="1585311606924" />
   </component>
   <component name="XDebuggerManager">
