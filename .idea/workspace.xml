@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewCase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewCase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,10 @@
       <workItem from="1586074150188" duration="1199000" />
       <workItem from="1586076189967" duration="1681000" />
       <workItem from="1586671485601" duration="2000" />
-      <workItem from="1586767234819" duration="1213000" />
+      <workItem from="1586767234819" duration="2810000" />
+      <workItem from="1589354653279" duration="660000" />
+      <workItem from="1590954315479" duration="443000" />
+      <workItem from="1590994554701" duration="1182000" />
     </task>
     <servers />
   </component>
@@ -144,10 +144,11 @@
     </state>
     <state x="325" y="103" key="SettingsEditor/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1584886354169" />
     <state x="325" y="103" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1585573492672" />
-    <state x="530" y="235" width="860" height="642" key="find.popup" timestamp="1585562993859">
+    <state x="530" y="235" width="860" height="642" key="find.popup" timestamp="1589354715475">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="530" y="235" width="860" height="642" key="find.popup/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1585562993859" />
+    <state x="530" y="235" width="860" height="642" key="find.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1589354715475" />
     <state x="1060" y="235" width="1720" height="642" key="find.popup/0.34.3840.1046@0.34.3840.1046" timestamp="1585313456617" />
     <state width="750" height="530" key="javadoc.popup" timestamp="1585308185069">
       <screen x="0" y="34" width="3840" height="1046" />
